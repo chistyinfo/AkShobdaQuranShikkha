@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ak Shobda Quran Shikkha</string>
+    <string name="app_name">একশব্দে কুরআন শিক্ষা</string>
     <string name="action_settings">Settings</string>
     <string name="one">ONE</string>
     <string name="three">THREE</string>
@@ -7,7 +7,7 @@
     <string name="four">FOUR</string>
     <string name="five">FIVE</string>
     <string name="btn_icon_tabs">Only Icon Tabs</string>
-    <string name="title_activity_icon_tabs">Ak Shobda Quran Shikkha</string>
+    <string name="title_activity_icon_tabs">একশব্দে কুরআন শিক্ষা</string>
     <string name="btn_custom_icon_tabs">Custom View Icon &amp; Text</string>
 
     <string name="hello_world">Hello world!</string>

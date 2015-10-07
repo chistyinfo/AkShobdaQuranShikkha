@@ -45,11 +45,11 @@ public class IconTabsActivity extends AppCompatActivity {
 
     private void setupTabIcons() {
         int[] tabIcons = {
-                R.drawable.ic_tab_call,
-                R.drawable.ic_tab_favourite,
-                R.drawable.ic_tab_contacts,
-                R.drawable.ic_tab_home,
-                R.drawable.ic_tab_donate
+                R.drawable.home,
+                R.drawable.book,
+                R.drawable.class_room,
+                R.drawable.contact,
+                R.drawable.donate
         };
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);

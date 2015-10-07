@@ -10,8 +10,8 @@
 # Add any project specific keep options here:
 
 # If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+# and specify the fully qualified class_room name to the JavaScript interface
+# class_room:
+#-keepclassmembers class_room fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}

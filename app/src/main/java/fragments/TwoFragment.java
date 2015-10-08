@@ -29,7 +29,7 @@ public class TwoFragment extends Fragment{
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        String curURL = "http://hatiparahighschool.edu.bd/";
+        String curURL = "file:///android_asset/book.html";
 
 
         View view = inflater.inflate(R.layout.fragment_two, container, false);

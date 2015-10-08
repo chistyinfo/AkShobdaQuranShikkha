@@ -14,7 +14,7 @@ import theoaktroop.akshobdaquranshikkha.R;
 public class TwoFragment extends Fragment{
 
     public TwoFragment() {
-        // Required empty public constructor
+
     }
 
     @Override
@@ -30,7 +30,6 @@ public class TwoFragment extends Fragment{
         // Inflate the layout for this fragment
 
         String curURL = "http://hatiparahighschool.edu.bd/";
-
 
 
         View view = inflater.inflate(R.layout.fragment_two, container, false);

@@ -29,34 +29,38 @@ public class TwoFragment extends Fragment{
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View v = inflater.inflate(R.layout.fragment_two, container, false);
-
-        WebView webView = (WebView) v.findViewById(R.id.bookWebView);
+        String curURL = "http://hatiparahighschool.edu.bd/";
 
 
 
-        String  url;
-
-        url = "http://afrozaramzanhighschool.edu.bd/";
+        View view = inflater.inflate(R.layout.fragment_two, container, false);
 
 
-        webView.setWebViewClient(new MyBrowser());
-        webView.getSettings().setLoadsImagesAutomatically(true);
-//            webView.getSettings().setBuiltInZoomControls(true);
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        webView.loadUrl(url);
+        if (curURL != null) {
 
-        return inflater.inflate(R.layout.fragment_two, container, false);
+            WebView webview = (WebView) view.findViewById(R.id.bookWebView);
+
+            webview.getSettings().setJavaScriptEnabled(true);
+
+            webview.setWebViewClient(new webClient());
+
+            webview.loadUrl(curURL);
+
+        }
+
+
+        return view;
     }
 
-    private class MyBrowser extends WebViewClient {
+    private class webClient extends WebViewClient {
+
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            view.loadUrl(url);
 
-            return true;
+            return false;
+
         }
+
     }
 
 }

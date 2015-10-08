@@ -11,7 +11,8 @@
         android:theme="@style/MyMaterialTheme" >
         <activity
             android:name="akshobdaquranshikkha.activity.IconTabsActivity"
-            android:label="@string/title_activity_icon_tabs" >
+            android:label="@string/title_activity_icon_tabs"
+            android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

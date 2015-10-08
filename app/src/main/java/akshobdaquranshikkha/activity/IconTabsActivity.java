@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import java.util.ArrayList;
 import java.util.List;
 
+import fragments.DeveloperFragment;
 import fragments.FiveFragment;
 import fragments.FourFragment;
 import fragments.OneFragment;
@@ -49,13 +50,15 @@ public class IconTabsActivity extends AppCompatActivity {
                 R.drawable.book,
                 R.drawable.class_room,
                 R.drawable.contact,
-                R.drawable.donate
+                R.drawable.donate,
+                R.drawable.developer
         };
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
         tabLayout.getTabAt(3).setIcon(tabIcons[3]);
         tabLayout.getTabAt(4).setIcon(tabIcons[4]);
+        tabLayout.getTabAt(5).setIcon(tabIcons[5]);
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -65,6 +68,7 @@ public class IconTabsActivity extends AppCompatActivity {
         adapter.addFrag(new ThreeFragment(), "THREE");
         adapter.addFrag(new FourFragment(), "FOUR");
         adapter.addFrag(new FiveFragment(), "FIVE");
+        adapter.addFrag(new DeveloperFragment(), "DEVELOPER");
         viewPager.setAdapter(adapter);
     }
 

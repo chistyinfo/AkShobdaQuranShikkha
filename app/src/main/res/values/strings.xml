@@ -17,6 +17,8 @@
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_book">Book</string>
-
+    <string name="organization_name">কুরআন শিক্ষা ফাউন্ডেশন বাংলাদেশ </string>
+    <string name="donationText"> একটি অলাভজনক, অরাজনৈতিক ও ধর্মীয় সংগঠন। মানুষকে সহী-শুদ্ধ রূপে কুরআন পড়তে, বুঝতে ও এর আলোয় আলোকিত করাই আমাদের লক্ষ্য। \n\nএই মহতী উদ্যোগ আর্থিক সহযোগিতা করার মাধ্যমে আপনিও শরীক হউন।</string>
+    <string name="donate_us">ডোনেট করুন ব্যাংক একাউন্ট অথবা বিকাশের মাধ্যমেঃ \n\nহিসাব নং: 101532\nইসলামী ব্যাংক বাংলাদেশ লিমিটেড\n\nবিকাশঃ 01501234567 (Personal)</string>
 
 </resources>

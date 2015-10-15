@@ -1,15 +1,31 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context="fragments.FiveFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/five"
-        android:textSize="40dp"
-        android:textStyle="bold"
+        android:text="@string/organization_name"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donationText"
 
-</RelativeLayout>
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donate_us"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:textColor="@color/green"/>
+
+</LinearLayout>

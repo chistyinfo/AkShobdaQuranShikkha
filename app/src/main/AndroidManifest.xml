@@ -11,15 +11,19 @@
         android:theme="@style/MyMaterialTheme" >
         <activity
             android:name="akshobdaquranshikkha.activity.IconTabsActivity"
-            android:label="@string/title_activity_icon_tabs"
-            android:configChanges="orientation|screenSize|keyboardHidden">
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_icon_tabs" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".BookActivity"
+            android:label="@string/title_activity_book"
+            android:theme="@style/MyMaterialTheme" >
+        </activity>
     </application>
 
 </manifest>
